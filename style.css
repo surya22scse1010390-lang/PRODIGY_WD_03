@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://github.com/Surya0773/PRODIGY_WD_02/blob/main/Background%20Image.jpeg?raw=true');
+    background-size: cover;
+}
+
+.stopwatch-container {
+    text-align: center;
+    color:aliceblue;
+
+}
+
+.stopwatch {
+    font-size: 50px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
